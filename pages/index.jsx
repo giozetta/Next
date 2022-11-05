@@ -7,11 +7,11 @@ export default function Home() {
       <Head>
         <title>Mostrando dados da tabela times de varias formas</title>
       </Head>
-      <h3>Eescolha uma forma: </h3>
-      <Link href="/CSR">CSR</Link>
-      <Link href="/SSR">SSR</Link>
-      <Link href="/SSG">SSG</Link>
-      <Link href="/ISR">ISR</Link>
+      <h3>Escolha uma forma: </h3>
+      <Link href="/CSR">CSR</Link><br/>
+      <Link href="/SSR">SSR</Link><br/>
+      <Link href="/SSG">SSG</Link><br/>
+      <Link href="/ISR">ISR</Link><br/>
     </div>
   )
 }

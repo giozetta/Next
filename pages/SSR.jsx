@@ -12,7 +12,7 @@ function SSR({times}){
                 </thead>
                 <tbody>
                     {
-                        predios.map(obj=>(
+                        times.map(obj=>(
                             <tr key={obj.codigo}>
                                 <td>{obj.codigo}</td>
                                 <td>{obj.nome}</td>
